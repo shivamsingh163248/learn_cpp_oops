@@ -17,6 +17,7 @@ int  main()
   cout << c ; 
   cout<<"creatng the github" ; 
   cout<<"this is the mian brach " ; 
+  cout<<"this is the main 2 breanch ";
 
 
     return 0;
