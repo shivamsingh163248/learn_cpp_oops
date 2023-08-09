@@ -4,6 +4,25 @@
 // now creating the standerd name space 
 using namespace std ; 
 
+
+
+
+// now creating the macro function 
+// now creating the macro with the parameter 
+#define MAXI(k, d ) (k > d) ? k : d  
+
+
+
+
+
+
+
+
+
+
+
+
+
 // now creating the inline function 
 inline void greaters (int a , int b){
 
@@ -29,6 +48,14 @@ int main (){
 
     // now calling the inline function 
     greaters(20,40) ; 
+    
+
+    int m = MAXI(50, 10 ) ; 
+
+
+
     return 0 ; 
 
 }
+
+// now creating the macro function 
